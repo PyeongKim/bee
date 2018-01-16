@@ -4,6 +4,7 @@ Created on 2015. 11. 6.
 @author: kimpyeongeun
 '''
 
+print('aaa')
 def new_function(aaa):
     if aaa=='a':
         print('k')
