@@ -6,7 +6,7 @@ Created on 2015. 11. 6.
 
 print('aaa')
 def new_function(aaa):
-    if aaa=='a':
+    if aaa=='apple':
         print('k')
 
 
