@@ -11,6 +11,7 @@ def new_function(aaa):
 
 
 
+
 def sim(word):
     length_matrix = len(word)
     go = len(word[0])
@@ -34,8 +35,9 @@ def sim(word):
     return add
 
 
-class Alternade:
+class Alternative:
     def __init__(self,word):
+        print('nothing much')
         if isinstance(word,str):
             word = [word]
             self.word = word
