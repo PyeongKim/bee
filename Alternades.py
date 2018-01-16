@@ -4,14 +4,21 @@ Created on 2015. 11. 6.
 @author: kimpyeongeun
 '''
 
+print('aaa')
+def new_function(aaa):
+    if aaa=='a':
+        print('k')
+
+
+
 def sim(word):
     length_matrix = len(word)
     go = len(word[0])
     for i in word:
-        
+
         length = min(len(i),go)
         go = len(i)
-        
+
     if len(word[0])>length:
         last = 0
     else:
@@ -23,7 +30,7 @@ def sim(word):
             add += word[t][n]
         n+=1
     add += word[last][n:]
-    
+
     return add
 
 
@@ -46,7 +53,7 @@ class Alternade:
             for i in self.word:
                 ab.append(i)
             return ab
-        
+
     def __repr__(self):
         if len(self.word)!=1:
 
@@ -62,7 +69,7 @@ class Alternade:
         return sim(self.word)
     words = property(words)
 
-    
+
 word1 = Alternade('SHOE')
 print(repr(word1))
 
