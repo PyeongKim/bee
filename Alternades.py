@@ -4,6 +4,7 @@ Created on 2015. 11. 6.
 @author: kimpyeongeun
 '''
 
+
 print('aaa')
 def new_function(aaa):
     if aaa=='a':
@@ -12,7 +13,7 @@ def new_function(aaa):
 
 
 def sim(word):
-    length_matrix = len(word)
+    length_matrix = len(word)**2
     go = len(word[0])
     for i in word:
 
